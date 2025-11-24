@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+           <link rel="icon" href="imagens/IconeCerto.png">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <title>Contatos</title>
+
+    
+<body>
+   <div class="navbar navbar-dark bg-dark navbar-expand-sm py-4 d-flex sticky-top" style="background-color: rgb(20, 2, 36);">
+        <div class="container">
+    
+            <a href="index.html" class="navbar-brand d-flex align-items-center"> <i><img src="imagens/IconeCerto.png" style= "width: 50px;" alt="icone do site">GeoMania</a></i>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuHamburguer">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    <div class="collapse navbar-collapse" id="MenuHamburguer">
+        <div class="navbar-nav ms-auto ">
+            <div class="row gap-2 text-center ">
+              <a href="index.html"  class="col nav-link">Inicio</a>
+            <a href="sobre.html"  class="col  nav-link">Sobre</a>
+           
+            <a href="inovacoes.html"  class="col nav-link">Inovações</a>
+            <a href="economiaVerde.html"  class="col nav-link">Economia</a>
+            <a href="contatos.html"  class="col nav-link">Contato</a>
+              <a href="ias.html" class="col nav-link">IAs</a>
+            </div>
+        </div>
+    </div>
+        </div>
+    
+    </div>
+
+<div style="background-color:  #351c3b;" class="py-1">
+  <h6 class="text-center text-white mx-auto" style="font-family: Oswald; font-weight: 100;">
+ ECONOMIA VERDE E INOVAÇÕES TECNOLÓGICAS
+    </h6>
+</div>
+
+<h4 class="text-center pt-3" style="font-family: Oswald; font-weight: 300;">ENTRE EM CONTATO</h4>
+ 
+
+<!-- Formulário de Contato -->
+  <div class="container my-5">
+    
+
+    <form class="bg-white p-4 rounded shadow-sm">
+      <!-- Dados pessoais -->
+      <fieldset class="mb-4">
+        <legend class="fw-bold">Seus dados</legend>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Nome completo*</label>
+            <input type="text" class="form-control" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">E-mail*</label>
+            <input type="email" class="form-control" required>
+          </div>
+        </div>
+        <div class="row g-3 mt-1">
+          <div class="col-md-6">
+            <label class="form-label">Telefone</label>
+            <input type="text" class="form-control" placeholder="(XX) XXXXX-XXXX">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Cidade</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Estado*</label>
+            <select class="form-select" required>
+              <option value="">Selecione</option>
+              <option>AC</option>
+              <option>AL</option>
+              <option>AP</option>
+              <option>AM</option>
+              <option>BA</option>
+              <option>CE</option>
+              <option>DF</option>
+              <option>ES</option>
+              <option>GO</option>
+              <option>MA</option>
+              <option>MG</option>
+              <option>MT</option>
+              <option>MS</option>
+              <option>PA</option>
+              <option>PB</option>
+              <option>PR</option>
+              <option>PE</option>
+              <option>PI</option>
+              <option>RJ</option>
+              <option>RN</option>
+              <option>RS</option>
+              <option>RO</option>
+              <option>RR</option>
+              <option>SC</option>
+              <option>SP</option>
+              <option>SE</option>
+              <option>TO</option>
+
+            
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Assunto -->
+      <fieldset class="mb-4">
+        <legend class="fw-bold">Mensagem</legend>
+        <div class="mb-3">
+         <div class="mb-3">
+          <label class="form-label">Assunto*</label>
+          <textarea class="form-control" rows="4" required></textarea>
+        </div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Mensagem*</label>
+          <textarea class="form-control" rows="4" required></textarea>
+        </div>
+      </fieldset>
+
+
+      <!-- Upload -->
+      <fieldset class="mb-4">
+        <legend class="fw-bold">Arquivos</legend>
+        <input type="file" class="form-control mb-3">
+        <button type="submit" class="btn btn-success">Enviar</button>
+        <button type="reset" class="btn btn-outline-secondary">Limpar</button>
+      </fieldset>
+    </form>
+
+    <!-- Localização -->
+    <div class="mt-5 text-center">
+      <p><strong>Nossa Localização:</strong><br>
+        Rua Pajé 318 - Praia Grande<br>
+        CEP: 11703330
+      </p>
+      <a href="https://share.google/UyJ8baVVIzI9wfDJU" 
+         class="btn btn-outline-success btn-sm">Ver mapa ampliado</a>
+    </div>
+  </div>
+
+
+
+
+  
+
+<footer class=" text-white p-5 bg-dark">
+  <p class="text-center">
+    Todos os direitos reservados &copy; 2025
+  </p>
+</footer>
+
+</body>
+</html>
